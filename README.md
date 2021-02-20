@@ -6,7 +6,7 @@
 ## Run command
 
 ```bash
-docker-compose up --build
+docker-compose up -d
 ```
 
 ## Api Code
@@ -54,3 +54,11 @@ DELETE /zoos/ID/animals/ID：删除某个指定动物园的指定动物
 username: admin
 password: admin
 ```
+
+## TODO
+
+1. websocket.
+2. unit test.
+3. 添加好友功能优化.
+4. 发语音.
+5. 发视频.

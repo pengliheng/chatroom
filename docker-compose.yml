@@ -49,8 +49,8 @@ services:
 
     frontend:
         restart: always
-        command: npx serve -s build
-        # command: yarn run start
+        # command: npx serve -s build   # production environment
+        command: yarn run start         # development environment
         stdin_open: true
         environment: 
             CI: "true"
